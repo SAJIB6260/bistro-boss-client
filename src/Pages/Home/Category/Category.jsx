@@ -20,7 +20,7 @@ const Category = () => {
             heading={"ORDER ONLINE"}
             ></SectionTitle>
             <Swiper
-                slidesPerView={3}
+                slidesPerView={4}
                 spaceBetween={30}
                 pagination={{
                     clickable: true,
@@ -30,23 +30,23 @@ const Category = () => {
             >
                 <SwiperSlide>
                     <img src={slider1} alt="" />
-                    <h3 className='text-4xl uppercase text-center font-semibold text-white shadow-xl -mt-16'>Salads</h3>
+                    <h3 className='text-lg md:text-2xl lg:text-4xl -mt-10 lg:-mt-16 uppercase text-center font-semibold text-white shadow-xl'>Salads</h3>
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={slider2} alt="" />
-                    <h3 className='text-4xl uppercase text-center font-semibold text-white shadow-xl -mt-16'>Soups</h3>
+                    <h3 className='text-lg md:text-2xl lg:text-4xl -mt-10 lg:-mt-16 uppercase text-center font-semibold text-white shadow-xl '>Soups</h3>
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={slider3} alt="" />
-                    <h3 className='text-4xl uppercase text-center font-semibold text-white shadow-xl -mt-16'>pizzas</h3>
+                    <h3 className='text-lg md:text-2xl lg:text-4xl -mt-10 lg:-mt-16 uppercase text-center font-semibold text-white shadow-xl'>pizzas</h3>
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={slider4} alt="" />
-                    <h3 className='text-4xl uppercase text-center font-semibold text-white shadow-xl -mt-16'>desserts</h3>
+                    <h3 className='text-lg md:text-2xl lg:text-4xl -mt-10 lg:-mt-16 uppercase text-center font-semibold text-white shadow-xl'>desserts</h3>
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={slider5} alt="" />
-                    <h3 className='text-4xl uppercase text-center font-semibold text-white shadow-xl -mt-16'>Salads</h3>
+                    <h3 className='text-lg md:text-2xl lg:text-4xl -mt-10 lg:-mt-16 uppercase text-center font-semibold text-white shadow-xl'>Salads</h3>
                 </SwiperSlide>
             </Swiper>
         </section>
